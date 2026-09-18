@@ -1,0 +1,21 @@
+make_field_queries.py  seed=20260915
+python 3.9.20  numpy 1.26.4
+
+The manifest checksum is the one to report. It is derived from the
+recipe alone. The audio checksum may differ in the last bit on a
+different CPU, which is audibly irrelevant and not a problem.
+
+split          dev
+queries        960
+manifest       sha256:0c710f20d749d7bd817911ecbe65d340968709885a286d4091242f8a03cc4a34
+audio          sha256:75432dbaade370ea960567d274c62f02bf479c50be63598fa06934dfda6c9076
+
+split          test
+queries        960
+manifest       sha256:2e0221ba87fc6e9088e8280fe09d5d2a4b9380441f9617fc96359aef19b2d9be
+audio          sha256:825f505c11ed7217762aa731facee1da79b409a18bff3c6bed1703a5524f251f
+
+split          test_late
+queries        240
+manifest       sha256:0299fd83d1414caefd44b578b97043672a464df52f0614a05d3c2a1aa8df9c9c
+audio          sha256:8f220c989b76293c9bdda9525182c4c832502f33966d9429552c84f547043059
